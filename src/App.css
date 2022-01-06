@@ -1,38 +1,48 @@
-.App {
+.userContainer {
+  border: 1px solid black;
+  max-width: 500px;
+  width: 100%;
+  margin: 50px auto;
   text-align: center;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.userContainer label {
+  float: left;
+  margin-left: 12px;
+  color: rgb(163, 156, 156);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Email,
+.Password {
+  border: 1px solid black;
+  box-sizing: border-box;
+  padding: 10px;
+  width: 95%;
+  margin: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.loginbtn {
+  margin-top: 15px;
+  padding: 10px 70px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(200, 166, 231);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.or {
+  font-size: 1.2rem;
+  margin: 15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.redirect {
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.Error {
+  color: red;
 }
